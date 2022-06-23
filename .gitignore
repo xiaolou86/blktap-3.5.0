@@ -1,0 +1,72 @@
+# dev + obj
+*~
+*.o
+*.a
+*.lo
+*.la
+*.so
+*.so.*
+.deps
+.libs
+cscope.*
+TAGS
+
+# ac/am
+Makefile.in
+/aclocal.m4
+/autom4te.cache/
+/compile
+/config.*
+/configure
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/m4/
+/missing
+/stamp-h1
+
+# executables
+/drivers/lock-util
+/drivers/tapdisk-stream
+/drivers/td-rated
+/drivers/td-util
+/drivers/tapdisk
+/control/tap-ctl
+/part/part-util
+/lvm/lvm-util
+/vhd/vhd-index
+/vhd/vhd-update
+/vhd/vhd-util
+/vhd/lib/test/random-copy
+/vhd/lib/test/test-snapshot
+/tapback/tapback
+
+# generated makefiles
+/Makefile
+/lvm/Makefile
+/part/Makefile
+/drivers/Makefile
+/control/Makefile
+/include/Makefile
+/vhd/Makefile
+/vhd/lib/Makefile
+/vhd/lib/test/Makefile
+/tapback/Makefile
+mk/config.log
+
+# dist output
+/blktap-*.tar.*
+/blktap-*/
+
+# doxygen
+/html/
+
+# ctags
+tags
+
+# vim swap files
+*.swp
+
+# diff/patch
+*.orig
